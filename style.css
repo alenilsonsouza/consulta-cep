@@ -1,0 +1,70 @@
+body{
+    padding: 20px;
+    background: rgb(24, 4, 90);
+}
+
+h1{
+ margin: 10px;
+ padding-bottom: 10px;
+ color: rgb(92, 230, 230);
+     
+}
+
+
+.container{
+   max-width:960px;
+   margin: 10px;
+  
+}
+
+.busca{
+    width: 960px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+   
+}
+
+.buscador{
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.btnBuscar{
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border:none;
+    font-size:14px;
+    background: linear-gradient(to right,rgb(86, 71, 226),rgb(92, 230, 230))
+}
+
+input{
+    width:400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    font-size:14px;
+    font-weight: bold;
+}
+
+label{
+    font-size: 1.2em;
+    width:100px;
+    margin: 20px 0px;
+    display: inline-block;
+    color: rgb(92, 230, 230);
+    font-weight: bold;
+   
+}
+
